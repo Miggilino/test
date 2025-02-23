@@ -1,0 +1,40 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: black;
+}
+
+header {
+    color: black;
+    padding: 20px;
+    position: absolute;
+    top: 10%; /* Adjust position from the top */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px; /* Smaller font size */
+    background-color: transparent; /* Remove dark background */
+}
+
+h1 {
+    margin: 0;
+    color: black;
+}
+
+main {
+    padding: 20px;
+}
+
+#video {
+    width: 50%; /* Adjust size as needed */
+    max-width: 600px; /* Optional, limits the max width */
+    height: auto; /* Maintains the aspect ratio */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: auto;
+}
